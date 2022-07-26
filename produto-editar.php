@@ -23,7 +23,7 @@ $result2 = mysqli_query($con, $sql2);
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Fornecedor:</label>
                     <select name="id_fornecedor" id="id_fornecedor" class="form-control">
-                        <option value="0" selected>Insira o fonrcedor</option>
+                        <option value="<?php echo $row['id_fornecedor']; ?>" selected><?php echo $row['id_fornecedor']; ?></option>
                         <?php
                         while ($row2 = mysqli_fetch_assoc($result2)) {
                         ?><option value="<?php echo $row2['id_fornecedor'] ?>"><?php echo $row2['nome_vendedor'] ?></option> ;

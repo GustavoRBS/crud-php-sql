@@ -1,6 +1,6 @@
-# Título do projeto
+# CRUD-PHP-MySQL
 
-Projeto consiste de um CRUD feito com PHP estrutural e MySQL.
+Projeto consiste de um CRUD feito com PHP estrutural e MySQL. No front desenvolvido uma página html para consumo das requisições.
 
 ## 🚀 Começando
 
@@ -16,7 +16,7 @@ PHP 8.1.1 e MySQL
 
 ### 🔧 Instalação
 
-Para rodar esse projeto das requisições você precisará do Servidor HTTP Apache, foi usado o xampp para rodar o apache o MySQl, porem você poderá usar a ferramenta de sua escolha para conectar com o servidor apache.
+Para rodar esse projeto além das requisições você precisará do Servidor HTTP Apache, foi usado o xampp para rodar o apache e o MySQl, porem você poderá usar a ferramenta de sua escolha para conectar com o servidor apache.
 
 ```
 XAMMP
@@ -24,7 +24,7 @@ XAMMP
 
 ## 📦 Desenvolvimento
 
-Junto com o arquivo encontra-se também o Dump MYSQL, basta subir em seu MySQL, ele contem duas table, uma relacionada com a outra e alguns dados para testes. 
+Junto com o arquivo encontra-se também o Dump MYSQL, basta subir em seu MySQL e contém duas tables, uma relacionada com a outra e alguns dados para testes. 
 
 ```
 ### Fornecedor

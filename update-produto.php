@@ -11,11 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $valor_produto = $_POST['valor_produto'];
     $peso = $_POST['peso'];
     $quantidade_estoque = $_POST['quantidade_estoque'];
-    if ($id_fornecedor == 0) {
-        $_SESSION['msg-danger'] = 'Insira o fornecedor.';
-        $con->close();
-        header("Location: produto-editar.php?id=$id");
-    }
+
     $sql0 = "update produto set id_fornecedor = '$id_fornecedor',
         nome_produto = '$nome_produto',
         valor_produto = '$valor_produto',

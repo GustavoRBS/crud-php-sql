@@ -1,6 +1,6 @@
 # CRUD-PHP-MySQL
 
-Projeto consiste de um CRUD feito com PHP estrutural e MySQL. No front desenvido uma página html para consumo de requisições.
+Projeto consiste de um CRUD feito com PHP estrutural e MySQL. No front desenvolvido uma página html para consumo de requisições.
 
 ## 🚀 Começando
 

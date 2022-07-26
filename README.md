@@ -1,4 +1,4 @@
-# Título do projeto
+# CRUD-PHP-MySQL
 
 Projeto consiste de um CRUD feito com PHP estrutural e MySQL.
 
